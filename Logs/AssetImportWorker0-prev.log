@@ -1,0 +1,1549 @@
+Using pre-set license
+Built from '2021.3/staging' branch; Version is '2021.3.11f1 (0a5ca18544bf) revision 679073'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22621) 64bit CoreSingleLanguage' Language: 'es' Physical Memory: 7995 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2021.3.11f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/manue/OneDrive/Escritorio/Trabajo final animacion para videojuegos
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+50848
+Successfully changed project path to: C:/Users/manue/OneDrive/Escritorio/Trabajo final animacion para videojuegos
+C:/Users/manue/OneDrive/Escritorio/Trabajo final animacion para videojuegos
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Refreshing native plugins compatible for Editor in 171.37 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.11f1 (0a5ca18544bf)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.11f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/manue/OneDrive/Escritorio/Trabajo final animacion para videojuegos/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: Intel(R) UHD Graphics (ID=0x9b41)
+    Vendor:   Intel
+    VRAM:     3997 MB
+    Driver:   30.0.101.2079
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.11f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.11f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.11f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56160
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.11f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.017823 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 191.06 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.060 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1061ms)
+		BeginReloadAssembly (185ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (2ms)
+		EndReloadAssembly (680ms)
+			LoadAssemblies (176ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (140ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (32ms)
+			SetupLoadedEditorAssemblies (441ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (10ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (191ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (170ms)
+				ProcessInitializeOnLoadMethodAttributes (68ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.023399 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\manue\OneDrive\Escritorio\Trabajo final animacion para videojuegos\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\manue\OneDrive\Escritorio\Trabajo final animacion para videojuegos\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 170.07 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.261 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2265ms)
+		BeginReloadAssembly (174ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (7ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (34ms)
+		EndReloadAssembly (1894ms)
+			LoadAssemblies (208ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (497ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (133ms)
+			SetupLoadedEditorAssemblies (1008ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (170ms)
+				BeforeProcessingInitializeOnLoad (173ms)
+				ProcessInitializeOnLoadAttributes (520ms)
+				ProcessInitializeOnLoadMethodAttributes (128ms)
+				AfterProcessingInitializeOnLoad (11ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.12 seconds
+Refreshing native plugins compatible for Editor in 1.21 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 6397 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 63 unused Assets / (2.8 MB). Loaded Objects now: 6846.
+Memory consumption went from 258.3 MB to 255.6 MB.
+Total: 8.472500 ms (FindLiveObjects: 0.655900 ms CreateObjectMapping: 0.623500 ms MarkObjects: 6.151500 ms  DeleteObjects: 1.040000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 178778.816534 seconds.
+  path: Assets/3D/Tanuki
+  artifactKey: Guid(e0c4f2b6dad4a3b498c6c97e8b36f7d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D/Tanuki using Guid(e0c4f2b6dad4a3b498c6c97e8b36f7d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fdcb016b02398a922327ba32aba8740e') in 0.036978 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/3D
+  artifactKey: Guid(ff32106ece2297e4eaa21394bdda4afb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D using Guid(ff32106ece2297e4eaa21394bdda4afb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f128416f44f9518c075a22b7eb9271e') in 0.033423 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.910540 seconds.
+  path: Assets/animacionamogas.anim
+  artifactKey: Guid(f3d31c18528646f4db8e0ee467cce2e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/animacionamogas.anim using Guid(f3d31c18528646f4db8e0ee467cce2e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0cc66c68a58ec4c666139a3578598296') in 0.099931 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 23.997428 seconds.
+  path: Assets/3D/Tanuki/Animations
+  artifactKey: Guid(5e9be021d98a64a48ad2fdad66243adc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D/Tanuki/Animations using Guid(5e9be021d98a64a48ad2fdad66243adc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6983f324ad00bee672d8a3bce9dd329c') in 0.019184 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 13.513316 seconds.
+  path: Assets/Palmov Island
+  artifactKey: Guid(4626e50e180e9f342aa0b86f14f52eee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Palmov Island using Guid(4626e50e180e9f342aa0b86f14f52eee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa99d67734c94d999fe02e9b95f55ab5') in 0.028813 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 79.004671 seconds.
+  path: Assets/models/Coyote/Animations/Player.controller
+  artifactKey: Guid(52efe0e2b5e79d2428e6291dbf687b34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/models/Coyote/Animations/Player.controller using Guid(52efe0e2b5e79d2428e6291dbf687b34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68843e304dd93f0c2203fca166acf190') in 0.103624 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.016896 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\manue\OneDrive\Escritorio\Trabajo final animacion para videojuegos\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\manue\OneDrive\Escritorio\Trabajo final animacion para videojuegos\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 2.95 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Error saving file Library/StateCache/LayerSettings/9e/9ecc5c3c162a7aba29bafa64c8b94b7c.json. Error: System.IO.IOException: Sharing violation on path C:\Users\manue\OneDrive\Escritorio\Trabajo final animacion para videojuegos\Library\StateCache\LayerSettings\9e\9ecc5c3c162a7aba29bafa64c8b94b7c.json
+  at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize, System.Boolean anonymous, System.IO.FileOptions options) [0x0019e] in <9aad1b3a47484d63ba2b3985692d80e9>:0 
+  at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize, System.IO.FileOptions options) [0x00000] in <9aad1b3a47484d63ba2b3985692d80e9>:0 
+  at (wrapper remoting-invoke-with-check) System.IO.FileStream..ctor(string,System.IO.FileMode,System.IO.FileAccess,System.IO.FileShare,int,System.IO.FileOptions)
+  at System.IO.StreamWriter..ctor (System.String path, System.Boolean append, System.Text.Encoding encoding, System.Int32 bufferSize) [0x00055] in <9aad1b3a47484d63ba2b3985692d80e9>:0 
+  at System.IO.StreamWriter..ctor (System.String path, System.Boolean append, System.Text.Encoding encoding) [0x00000] in <9aad1b3a47484d63ba2b3985692d80e9>:0 
+  at (wrapper remoting-invoke-with-check) System.IO.StreamWriter..ctor(string,bool,System.Text.Encoding)
+  at System.IO.File.WriteAllText (System.String path, System.String contents, System.Text.Encoding encoding) [0x00034] in <9aad1b3a47484d63ba2b3985692d80e9>:0 
+  at UnityEditor.StateCache`1[T].SetState (UnityEngine.Hash128 key, T obj) [0x0004b] in <4e64905d831f4883a53259ef37fb023b>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.StateCache`1<UnityEditor.Tools/LayerSettings>:SetState (UnityEngine.Hash128,UnityEditor.Tools/LayerSettings)
+UnityEditor.Tools:set_lockedLayers (int)
+UnityEditor.Tools:OnEnable ()
+UnityEngine.ScriptableObject:CreateInstance (System.Type)
+UnityEngine.ScriptableObject:CreateInstance<UnityEditor.Tools> ()
+UnityEditor.Tools:get_get ()
+UnityEditor.Tools:get_visibleLayers ()
+UnityEditor.Animations.Rigging.BoneRendererUtils:.cctor () (at Library/PackageCache/com.unity.animation.rigging@1.1.1/Editor/Utils/BoneRendererUtils.cs:121)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: Library/PackageCache/com.unity.animation.rigging@1.1.1/Editor/Utils/BoneRendererUtils.cs Line: 121)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  5.415 seconds
+Domain Reload Profiling:
+	ReloadAssembly (5421ms)
+		BeginReloadAssembly (1119ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (65ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (1ms)
+			CreateAndSetChildDomain (649ms)
+		EndReloadAssembly (3987ms)
+			LoadAssemblies (500ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (1613ms)
+			ReleaseScriptCaches (10ms)
+			RebuildScriptCaches (235ms)
+			SetupLoadedEditorAssemblies (1507ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (42ms)
+				SetLoadedEditorAssemblies (3ms)
+				RefreshPlugins (3ms)
+				BeforeProcessingInitializeOnLoad (236ms)
+				ProcessInitializeOnLoadAttributes (958ms)
+				ProcessInitializeOnLoadMethodAttributes (238ms)
+				AfterProcessingInitializeOnLoad (27ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (61ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 12.12 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 6220 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 42 unused Assets / (2.7 MB). Loaded Objects now: 6863.
+Memory consumption went from 245.9 MB to 243.1 MB.
+Total: 13.136000 ms (FindLiveObjects: 0.997600 ms CreateObjectMapping: 1.212700 ms MarkObjects: 9.346000 ms  DeleteObjects: 1.578100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 207.082213 seconds.
+  path: Assets/Baqir Rig procedural/baquir.prefab
+  artifactKey: Guid(c34ffb24582bcde46895e19508ad702c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Baqir Rig procedural/baquir.prefab using Guid(c34ffb24582bcde46895e19508ad702c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '484a54bebd2018c44a0530043263bd67') in 0.632406 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 65.785326 seconds.
+  path: Assets/Baqir Rig procedural/baquir.prefab
+  artifactKey: Guid(c34ffb24582bcde46895e19508ad702c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Baqir Rig procedural/baquir.prefab using Guid(c34ffb24582bcde46895e19508ad702c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '398d043c600fba023177b1fd25f5a4e9') in 0.110597 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.014628 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\manue\OneDrive\Escritorio\Trabajo final animacion para videojuegos\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\manue\OneDrive\Escritorio\Trabajo final animacion para videojuegos\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.33 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  4.238 seconds
+Domain Reload Profiling:
+	ReloadAssembly (4249ms)
+		BeginReloadAssembly (1466ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (208ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (723ms)
+		EndReloadAssembly (2468ms)
+			LoadAssemblies (394ms)
+			RebuildTransferFunctionScriptingTraits (1ms)
+			SetupTypeCache (969ms)
+			ReleaseScriptCaches (6ms)
+			RebuildScriptCaches (206ms)
+			SetupLoadedEditorAssemblies (814ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (20ms)
+				SetLoadedEditorAssemblies (3ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (151ms)
+				ProcessInitializeOnLoadAttributes (494ms)
+				ProcessInitializeOnLoadMethodAttributes (131ms)
+				AfterProcessingInitializeOnLoad (13ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (37ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 7.41 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 6227 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 42 unused Assets / (2.7 MB). Loaded Objects now: 6939.
+Memory consumption went from 253.1 MB to 250.4 MB.
+Total: 14.022600 ms (FindLiveObjects: 2.665800 ms CreateObjectMapping: 0.781400 ms MarkObjects: 8.654600 ms  DeleteObjects: 1.918700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.018099 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\manue\OneDrive\Escritorio\Trabajo final animacion para videojuegos\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\manue\OneDrive\Escritorio\Trabajo final animacion para videojuegos\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.28 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.424 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2427ms)
+		BeginReloadAssembly (456ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (17ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (150ms)
+		EndReloadAssembly (1785ms)
+			LoadAssemblies (279ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (547ms)
+			ReleaseScriptCaches (7ms)
+			RebuildScriptCaches (163ms)
+			SetupLoadedEditorAssemblies (674ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (16ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (126ms)
+				ProcessInitializeOnLoadAttributes (397ms)
+				ProcessInitializeOnLoadMethodAttributes (115ms)
+				AfterProcessingInitializeOnLoad (17ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (30ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 4.66 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 6228 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 42 unused Assets / (2.8 MB). Loaded Objects now: 6955.
+Memory consumption went from 253.2 MB to 250.5 MB.
+Total: 8.449500 ms (FindLiveObjects: 0.531500 ms CreateObjectMapping: 0.614000 ms MarkObjects: 6.486100 ms  DeleteObjects: 0.816400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 597.440808 seconds.
+  path: Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/xlink.png
+  artifactKey: Guid(556a2f3b046024d4c9621c1b4be5f0c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/xlink.png using Guid(556a2f3b046024d4c9621c1b4be5f0c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd17b0dc5597f13edb0dc1b0c487f72e9') in 0.461682 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000093 seconds.
+  path: Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/step3@2x.png
+  artifactKey: Guid(36e6970b84831434a9eac79abd03700b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/step3@2x.png using Guid(36e6970b84831434a9eac79abd03700b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '075ebf7b73e863e1d9982bcb428a9d0b') in 0.080918 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.010885 seconds.
+  path: Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/step3.png
+  artifactKey: Guid(69899ed144c8eea4baea48b858b37746) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/step3.png using Guid(69899ed144c8eea4baea48b858b37746) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5486000d43d07e6cc45ee4032935485e') in 0.054789 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.210525 seconds.
+  path: Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/step2@2x.png
+  artifactKey: Guid(0029170d14ce6c04c9f45c22cdae5559) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/step2@2x.png using Guid(0029170d14ce6c04c9f45c22cdae5559) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c810246a33b3d8437794530cac8247d') in 0.076662 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.580173 seconds.
+  path: Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/step2.png
+  artifactKey: Guid(cd0b17b71a5c498428ee91dee8a78a88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/step2.png using Guid(cd0b17b71a5c498428ee91dee8a78a88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b8fe0282e94412e7e16dd51e273ce31') in 0.066853 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.016396 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\manue\OneDrive\Escritorio\Trabajo final animacion para videojuegos\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\manue\OneDrive\Escritorio\Trabajo final animacion para videojuegos\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 2.92 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  4.885 seconds
+Domain Reload Profiling:
+	ReloadAssembly (4888ms)
+		BeginReloadAssembly (1272ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (45ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (1ms)
+			CreateAndSetChildDomain (751ms)
+		EndReloadAssembly (3280ms)
+			LoadAssemblies (468ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (1421ms)
+			ReleaseScriptCaches (8ms)
+			RebuildScriptCaches (224ms)
+			SetupLoadedEditorAssemblies (1050ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (41ms)
+				SetLoadedEditorAssemblies (3ms)
+				RefreshPlugins (3ms)
+				BeforeProcessingInitializeOnLoad (264ms)
+				ProcessInitializeOnLoadAttributes (614ms)
+				ProcessInitializeOnLoadMethodAttributes (113ms)
+				AfterProcessingInitializeOnLoad (12ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (37ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 5.27 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 6228 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 42 unused Assets / (2.8 MB). Loaded Objects now: 6978.
+Memory consumption went from 253.2 MB to 250.5 MB.
+Total: 8.788800 ms (FindLiveObjects: 0.568300 ms CreateObjectMapping: 0.504800 ms MarkObjects: 6.217100 ms  DeleteObjects: 1.497000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 51733.536003 seconds.
+  path: Assets/Prefabs/Baquir.prefab
+  artifactKey: Guid(e1ec7bf90c6e24647949b86a3ad85e6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Baquir.prefab using Guid(e1ec7bf90c6e24647949b86a3ad85e6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '877cc3efc67f957f6a2df8e9037f193a') in 4.274625 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1137.362999 seconds.
+  path: Assets/models/Coyote/Controller/CharacterMovement.cs
+  artifactKey: Guid(ba99e71ebf12d75498682ee68478db9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/models/Coyote/Controller/CharacterMovement.cs using Guid(ba99e71ebf12d75498682ee68478db9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc274e7e0ed07bcbb1c8a9803c7cee86') in 0.105778 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.001537 seconds.
+  path: Assets/models
+  artifactKey: Guid(3b868f47bad85ab40a1094db0d1f2596) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/models using Guid(3b868f47bad85ab40a1094db0d1f2596) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd5644b57d4a20b8a2c3c4f062c9614d2') in 0.034374 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000071 seconds.
+  path: Assets/models/Coyote/Controller/PlayerController.cs
+  artifactKey: Guid(3996aaaebc45f9f47805539be579ce39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/models/Coyote/Controller/PlayerController.cs using Guid(3996aaaebc45f9f47805539be579ce39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b95760bcf405cbcba9655aabe4ebdc1') in 0.038963 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/models/Coyote/coyote.unity
+  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/models/Coyote/coyote.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd877329cd93089d92c69b8eec2d2d73a') in 0.014608 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/models/Coyote/3D/Textures/tongueteeth6.png
+  artifactKey: Guid(53c6ab2966d6fe04f991adb9d06cd74e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/models/Coyote/3D/Textures/tongueteeth6.png using Guid(53c6ab2966d6fe04f991adb9d06cd74e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4608941e004051a06e6bc74b2ce4cb8d') in 0.692684 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.033217 seconds.
+  path: Assets/models/Coyote/Controller/IInputListener.cs
+  artifactKey: Guid(0922c7813abd6a64b9e4289d56521000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/models/Coyote/Controller/IInputListener.cs using Guid(0922c7813abd6a64b9e4289d56521000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6bcb16fbe34dd51bbffa9211c3a69afc') in 0.014550 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/models/Coyote/Coyote.prefab
+  artifactKey: Guid(d92836cc2c35b5541afd2c203ee0f744) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/models/Coyote/Coyote.prefab using Guid(d92836cc2c35b5541afd2c203ee0f744) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '05735570243f9f9061696d933d513967') in 0.965047 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/models/Coyote/3D/Textures/body.png
+  artifactKey: Guid(bda5946e3d8ea4843b030b1450e343e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/models/Coyote/3D/Textures/body.png using Guid(bda5946e3d8ea4843b030b1450e343e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c79f5e3123e959bddc13715dafb35d0d') in 0.036917 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.050283 seconds.
+  path: Assets/models/Coyote/Controller/PlayerHealth.cs
+  artifactKey: Guid(805bdbfc4c54d20459b7eb5ba063f428) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/models/Coyote/Controller/PlayerHealth.cs using Guid(805bdbfc4c54d20459b7eb5ba063f428) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a675c4c3f7aac9aafa430eafbbd6c92') in 0.012243 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.055512 seconds.
+  path: Assets/models/Coyote/Animations/Player.controller
+  artifactKey: Guid(52efe0e2b5e79d2428e6291dbf687b34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/models/Coyote/Animations/Player.controller using Guid(52efe0e2b5e79d2428e6291dbf687b34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '18b8913a708b1c9a689a7ee850b53fb0') in 0.047998 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000061 seconds.
+  path: Assets/models/Coyote/Prefab
+  artifactKey: Guid(87686788ada913b448aeb781583ba6fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/models/Coyote/Prefab using Guid(87686788ada913b448aeb781583ba6fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '49f0cb449d1228e2646b52d72908c096') in 0.014059 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/models/Coyote/3D/Textures
+  artifactKey: Guid(e8877a4159ee397479c1cea6962cafc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/models/Coyote/3D/Textures using Guid(e8877a4159ee397479c1cea6962cafc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '38274892c112b95a27449e40e44f1bd5') in 0.011083 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/models/Coyote/Controller/Actor.cs
+  artifactKey: Guid(30da1a50f9a991d47a40c70cbfba5a56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/models/Coyote/Controller/Actor.cs using Guid(30da1a50f9a991d47a40c70cbfba5a56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25821298fdcee1702bf97352bf239867') in 0.011041 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/models/Coyote/Controller/Controller.unity
+  artifactKey: Guid(e71de260507a46b4297aa03207eeae0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/models/Coyote/Controller/Controller.unity using Guid(e71de260507a46b4297aa03207eeae0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca8878021fdd25a0c430d81c28b9e754') in 0.016906 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/models/Coyote/3D/Textures/wileeye.jpg
+  artifactKey: Guid(685359bca80e2bf47bf9095444e34b05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/models/Coyote/3D/Textures/wileeye.jpg using Guid(685359bca80e2bf47bf9095444e34b05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd58abe90dff5f57f03aebfc11a85d60') in 0.084760 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1714.869960 seconds.
+  path: Assets/Palmov Island/Low Poly Cartoon Mini Pack Free/Prefabs/Transport/car_blue.prefab
+  artifactKey: Guid(683c15f9e972f4655b2620101423b704) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Palmov Island/Low Poly Cartoon Mini Pack Free/Prefabs/Transport/car_blue.prefab using Guid(683c15f9e972f4655b2620101423b704) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5bf632fec2c9b6995a6416839c27b151') in 0.618102 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000494 seconds.
+  path: Assets/Palmov Island/Low Poly Cartoon Mini Pack Free/Models/Stones/stone_1.fbx
+  artifactKey: Guid(121d27198e3e1434c8f884eb7a954b48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Palmov Island/Low Poly Cartoon Mini Pack Free/Models/Stones/stone_1.fbx using Guid(121d27198e3e1434c8f884eb7a954b48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '813aa6c3155f232ee088301938558c1b') in 0.782645 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/TextMesh Pro/Shaders/TMPro_Surface.cginc
+  artifactKey: Guid(d930090c0cd643c7b55f19a38538c162) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Shaders/TMPro_Surface.cginc using Guid(d930090c0cd643c7b55f19a38538c162) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '516a3a81c5bbedde24b8dce2847a49ad') in 0.019156 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Palmov Island/Low Poly Cartoon Mini Pack Free/Models/Roads/river_area.fbx
+  artifactKey: Guid(88228669860c0423fadd281ec539730b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Palmov Island/Low Poly Cartoon Mini Pack Free/Models/Roads/river_area.fbx using Guid(88228669860c0423fadd281ec539730b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f431e1df2e29b4ec85576e97dfec89e9') in 0.083560 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/scenes
+  artifactKey: Guid(da6a2f00916b9fe46b01286d2d6cd8ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/scenes using Guid(da6a2f00916b9fe46b01286d2d6cd8ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9739f91e4bbf96a169cb002b78b70661') in 0.015126 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Palmov Island/Low Poly Cartoon Mini Pack Free/Models/Transport/red_plane_without_gear.fbx
+  artifactKey: Guid(2c0747dfd9ee341cda818a107a4a98cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Palmov Island/Low Poly Cartoon Mini Pack Free/Models/Transport/red_plane_without_gear.fbx using Guid(2c0747dfd9ee341cda818a107a4a98cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd47b954554ee0df52e7c3324ca3e7f46') in 0.051643 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.014337 seconds.
+  path: Assets/TextMesh Pro/Shaders
+  artifactKey: Guid(e9f693669af91aa45ad615fc681ed29f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Shaders using Guid(e9f693669af91aa45ad615fc681ed29f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '16852098a277b7ddedd49287b21bfbc7') in 0.011463 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Scripts/IKSwitcher.cs
+  artifactKey: Guid(875767a81ac08ec4c8215eb5257039ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/IKSwitcher.cs using Guid(875767a81ac08ec4c8215eb5257039ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '710298c408ea47e1cd6be6cd5c9a5a27') in 0.011705 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Settings
+  artifactKey: Guid(709f11a7f3c4041caa4ef136ea32d874) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Settings using Guid(709f11a7f3c4041caa4ef136ea32d874) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dfaa9b38051423c63420310940c3f677') in 0.011984 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.037140 seconds.
+  path: Assets/Resources
+  artifactKey: Guid(6888ef56ed89f434fa96d82583fc099a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources using Guid(6888ef56ed89f434fa96d82583fc099a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b87392716f67c09a1a0cd480034ec0aa') in 0.011624 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.006192 seconds.
+  path: Assets/Palmov Island/Low Poly Cartoon Mini Pack Free/Prefabs/Trees/oval_tree.prefab
+  artifactKey: Guid(3dd5ac78e5f8a442c94ffa793d1b7ff1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Palmov Island/Low Poly Cartoon Mini Pack Free/Prefabs/Trees/oval_tree.prefab using Guid(3dd5ac78e5f8a442c94ffa793d1b7ff1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1b1b00735cfdfb0277ed69000704461') in 0.028946 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.016271 seconds.
+  path: Assets/Palmov Island/Low Poly Cartoon Mini Pack Free/Prefabs/Houses/house_small.prefab
+  artifactKey: Guid(9746979f59e694feab90f89d54d783b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Palmov Island/Low Poly Cartoon Mini Pack Free/Prefabs/Houses/house_small.prefab using Guid(9746979f59e694feab90f89d54d783b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '923ca7273e62168b6d6fdadfafb2ca17') in 0.034052 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Inputs
+  artifactKey: Guid(9986cedcd12841e41b37b18d53c673b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Inputs using Guid(9986cedcd12841e41b37b18d53c673b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'acb633ae06331cf16316e51c850b83cf') in 0.011519 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.012413 seconds.
+  path: Assets/Baqir Rig procedural/controller.controller
+  artifactKey: Guid(1de8323f58219d04da1d28c3a1ce5dd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Baqir Rig procedural/controller.controller using Guid(1de8323f58219d04da1d28c3a1ce5dd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b437bd845e19d66580aaaf64a122e4c') in 0.124393 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.020537 seconds.
+  path: Assets/models/Tanuki/3D/Tanuki/Textures/Red_Metallic.tga
+  artifactKey: Guid(c4961f1ccaed4a149950cdd8802ff019) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/models/Tanuki/3D/Tanuki/Textures/Red_Metallic.tga using Guid(c4961f1ccaed4a149950cdd8802ff019) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37e09d384b2b2cd6bb0b4a9fb708a6de') in 0.103994 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Baqir Rig procedural/Scenes/SampleScene.unity
+  artifactKey: Guid(b3425c7376bd7764794c89da95508434) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Baqir Rig procedural/Scenes/SampleScene.unity using Guid(b3425c7376bd7764794c89da95508434) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ecfe821f0221c5c6303015a169480a68') in 0.005888 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/TextMesh Pro/Resources/LineBreaking Following Characters.txt
+  artifactKey: Guid(fade42e8bc714b018fac513c043d323b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Resources/LineBreaking Following Characters.txt using Guid(fade42e8bc714b018fac513c043d323b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec7d2871a6f872705b80d960f850069d') in 0.052973 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Palmov Island/Low Poly Cartoon Mini Pack Free/Prefabs/Transport
+  artifactKey: Guid(201f8e308ab9a4aeba421a5c36f5ebec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Palmov Island/Low Poly Cartoon Mini Pack Free/Prefabs/Transport using Guid(201f8e308ab9a4aeba421a5c36f5ebec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3199abe40ccc98406f738bcf8f499190') in 0.010235 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Palmov Island/Low Poly Cartoon Mini Pack Free/Prefabs/Roads
+  artifactKey: Guid(4f724c10548b845179e5bf0d60bc47af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Palmov Island/Low Poly Cartoon Mini Pack Free/Prefabs/Roads using Guid(4f724c10548b845179e5bf0d60bc47af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '163a1298cab6f7c3545197edf7224b2c') in 0.013375 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/models/Tanuki/Prefabs/Player 2.0.prefab
+  artifactKey: Guid(0773a5f91c2626540a1eae0cb2422887) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/models/Tanuki/Prefabs/Player 2.0.prefab using Guid(0773a5f91c2626540a1eae0cb2422887) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2bb0557ea5cc41f56513c15c86ab05a2') in 0.408691 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/TextMesh Pro/Fonts
+  artifactKey: Guid(6ab70aee4d56447429c680537fbf93ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Fonts using Guid(6ab70aee4d56447429c680537fbf93ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c35bbd85dc86dd2ef332d439fd9c360') in 0.014705 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.028751 seconds.
+  path: Assets/models/Tanuki/3D/Tanuki/Animations/TanukiAnimator.controller
+  artifactKey: Guid(09c96ea6f5b9f1041b4c2e8dd6f68c2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/models/Tanuki/3D/Tanuki/Animations/TanukiAnimator.controller using Guid(09c96ea6f5b9f1041b4c2e8dd6f68c2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e56ed6ac6af073c6693a440a5f88ad93') in 0.068618 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000195 seconds.
+  path: Assets/Baqir Rig procedural/ConstraintController.cs
+  artifactKey: Guid(1ff775801cc9ceb478d7dce0995150cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Baqir Rig procedural/ConstraintController.cs using Guid(1ff775801cc9ceb478d7dce0995150cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ab8c0d21e353ffef41344723e13d333') in 0.016498 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Palmov Island/Low Poly Cartoon Mini Pack Free/Models/Transport
+  artifactKey: Guid(e694b16d7c2c444e4853a31eb112727c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Palmov Island/Low Poly Cartoon Mini Pack Free/Models/Transport using Guid(e694b16d7c2c444e4853a31eb112727c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55e4bcfee4c0b742b077e5c1fb765817') in 0.008959 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.025890 seconds.
+  path: Assets/models/Tanuki/3D/Tanuki/Textures/Red_Normal.tga
+  artifactKey: Guid(a0c69c764ba862a42a9e5ffa02fedc5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/models/Tanuki/3D/Tanuki/Textures/Red_Normal.tga using Guid(a0c69c764ba862a42a9e5ffa02fedc5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8301e678cc575b42dd2c9bf31fd25798') in 0.061732 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Palmov Island/Low Poly Cartoon Mini Pack Free/Models/Houses
+  artifactKey: Guid(c4f57d6f657dd4a63a1adf3c033b38eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Palmov Island/Low Poly Cartoon Mini Pack Free/Models/Houses using Guid(c4f57d6f657dd4a63a1adf3c033b38eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0dbd8cec61ea55c49ecb1a6ce3132486') in 0.012265 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.019136 seconds.
+  path: Assets/TextMesh Pro
+  artifactKey: Guid(f54d1bd14bd3ca042bd867b519fee8cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro using Guid(f54d1bd14bd3ca042bd867b519fee8cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f5648c5ef36b7beab651a001a8d08867') in 0.019016 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.002640 seconds.
+  path: Assets/Palmov Island/Low Poly Cartoon Mini Pack Free/Prefabs/Garden/land_garden.prefab
+  artifactKey: Guid(c601859cfa8db43908cbd040fa192589) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Palmov Island/Low Poly Cartoon Mini Pack Free/Prefabs/Garden/land_garden.prefab using Guid(c601859cfa8db43908cbd040fa192589) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c28bb2816900fd9f7c6abfd8196b463') in 0.038859 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Palmov Island/Low Poly Cartoon Mini Pack Free/Models/Grasses/grass.fbx
+  artifactKey: Guid(7fdf2d06d2f774a0e90d2d56cfb5c0ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Palmov Island/Low Poly Cartoon Mini Pack Free/Models/Grasses/grass.fbx using Guid(7fdf2d06d2f774a0e90d2d56cfb5c0ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '779f19df8941219e2c3f2b3dd5989b65') in 0.049064 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.037223 seconds.
+  path: Assets/TutorialInfo/Icons
+  artifactKey: Guid(8a0c9218a650547d98138cd835033977) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TutorialInfo/Icons using Guid(8a0c9218a650547d98138cd835033977) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97246fe29dc966453781dc86007a4ba4') in 0.014879 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/TextMesh Pro/Shaders/TMP_Bitmap-Custom-Atlas.shader
+  artifactKey: Guid(48bb5f55d8670e349b6e614913f9d910) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Shaders/TMP_Bitmap-Custom-Atlas.shader using Guid(48bb5f55d8670e349b6e614913f9d910) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '45ed49c32edc130ef232242e76ab143c') in 0.016565 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Palmov Island/Low Poly Cartoon Mini Pack Free/Models/Roads
+  artifactKey: Guid(e9e6b708485c04493a66c84f9d3956da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Palmov Island/Low Poly Cartoon Mini Pack Free/Models/Roads using Guid(e9e6b708485c04493a66c84f9d3956da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c00e48cbffb421f72f8a68d2a39b46a8') in 0.005669 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Palmov Island/Low Poly Cartoon Mini Pack Free/Models/Houses/supermarket.fbx
+  artifactKey: Guid(9ddd911d20bee4b26a76412be1d3f79a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Palmov Island/Low Poly Cartoon Mini Pack Free/Models/Houses/supermarket.fbx using Guid(9ddd911d20bee4b26a76412be1d3f79a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e1d4473820797e6b684901bdaee3679') in 0.136645 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.011749 seconds.
+  path: Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF.asset
+  artifactKey: Guid(8f586378b4e144a9851e7b34d9b748ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF.asset using Guid(8f586378b4e144a9851e7b34d9b748ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b499b53bda2ad35bd2b7faae2a2e0324') in 0.256998 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Baqir Rig procedural/Materials/baqirBaseColor.mat
+  artifactKey: Guid(194082eae67f99e488ce1c3feea09d06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Baqir Rig procedural/Materials/baqirBaseColor.mat using Guid(194082eae67f99e488ce1c3feea09d06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9154cc34426cf0d734826d0ca026de8f') in 0.062390 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000065 seconds.
+  path: Assets/models/Tanuki/3D/Tanuki/Textures/Red_Roughness.tga
+  artifactKey: Guid(e151fffa84ce39b4abf1bc12166061f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/models/Tanuki/3D/Tanuki/Textures/Red_Roughness.tga using Guid(e151fffa84ce39b4abf1bc12166061f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab14fac962e059b78d24385c83f72ff6') in 0.026796 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/TextMesh Pro/Resources/Style Sheets/Default Style Sheet.asset
+  artifactKey: Guid(f952c082cb03451daed3ee968ac6c63e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Resources/Style Sheets/Default Style Sheet.asset using Guid(f952c082cb03451daed3ee968ac6c63e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4644d23dfe9f70ad6b566f56b24a74f5') in 0.015833 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.075256 seconds.
+  path: Assets/Palmov Island/Low Poly Cartoon Mini Pack Free/Models/Houses/house_big.fbx
+  artifactKey: Guid(714740d80f34b41a7995007a40d44e1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Palmov Island/Low Poly Cartoon Mini Pack Free/Models/Houses/house_big.fbx using Guid(714740d80f34b41a7995007a40d44e1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '525d20e54590e8e9607a67ca47028a47') in 0.100283 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/TutorialInfo/Scripts/Editor/ReadmeEditor.cs
+  artifactKey: Guid(476cc7d7cd9874016adc216baab94a0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TutorialInfo/Scripts/Editor/ReadmeEditor.cs using Guid(476cc7d7cd9874016adc216baab94a0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '08672f8142286d73532e8b06632187b7') in 0.011596 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Palmov Island/Low Poly Cartoon Mini Pack Free/Models/Trees/naked_tree.fbx
+  artifactKey: Guid(de2c71d7c5568418d80bde1e92505b49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Palmov Island/Low Poly Cartoon Mini Pack Free/Models/Trees/naked_tree.fbx using Guid(de2c71d7c5568418d80bde1e92505b49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b7ccbc180c7516a35e2dc9866a125d4') in 0.050118 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/scenes/prueba.unity
+  artifactKey: Guid(8da64baa622dc15488d1d2a9f495d995) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/scenes/prueba.unity using Guid(8da64baa622dc15488d1d2a9f495d995) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '372bbf8db01142659898eb5f34ff895c') in 0.011450 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.012991 seconds.
+  path: Assets/TextMesh Pro/Resources/Sprite Assets/EmojiOne.asset
+  artifactKey: Guid(c41005c129ba4d66911b75229fd70b45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Resources/Sprite Assets/EmojiOne.asset using Guid(c41005c129ba4d66911b75229fd70b45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd362965d62fc1c9587c9c933bfa8267') in 0.030979 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Palmov Island/Low Poly Cartoon Mini Pack Free/Prefabs/Stones
+  artifactKey: Guid(d2cd50daa34d64bc19a9581a03c8b68f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Palmov Island/Low Poly Cartoon Mini Pack Free/Prefabs/Stones using Guid(d2cd50daa34d64bc19a9581a03c8b68f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25d157ea394e5aa0bd687d1b40175d64') in 0.012017 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.003959 seconds.
+  path: Assets/TextMesh Pro/Shaders/TMP_Sprite.shader
+  artifactKey: Guid(cf81c85f95fe47e1a27f6ae460cf182c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Shaders/TMP_Sprite.shader using Guid(cf81c85f95fe47e1a27f6ae460cf182c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97d5b4cc509e7ad427f84e77dff030ff') in 0.011765 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.003479 seconds.
+  path: Assets/TextMesh Pro/Sprites/EmojiOne Attribution.txt
+  artifactKey: Guid(381dcb09d5029d14897e55f98031fca5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Sprites/EmojiOne Attribution.txt using Guid(381dcb09d5029d14897e55f98031fca5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf0285224bbe837ec27a6baa82bf0676') in 0.011574 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Palmov Island/Low Poly Cartoon Mini Pack Free/Prefabs/Transport/red_plane_without_gear.prefab
+  artifactKey: Guid(8e363b6f60915472ab4a16e7df561988) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Palmov Island/Low Poly Cartoon Mini Pack Free/Prefabs/Transport/red_plane_without_gear.prefab using Guid(8e363b6f60915472ab4a16e7df561988) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd1575a0486b950d1e6210d22ba42eda') in 0.025003 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/IKFootSolver.cs
+  artifactKey: Guid(28c64cf6a73b0f14db996b3c71010f34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IKFootSolver.cs using Guid(28c64cf6a73b0f14db996b3c71010f34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bbcd5d4c6f874e529b137257b7143580') in 0.011131 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Scripts/LoadLevel.cs
+  artifactKey: Guid(8e4a04c3800b3b348a76562859ab7986) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/LoadLevel.cs using Guid(8e4a04c3800b3b348a76562859ab7986) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '50e38659ae0604d37422eb5420cc8ca0') in 0.012068 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.014608 seconds.
+  path: Assets/Palmov Island/Low Poly Cartoon Mini Pack Free/Prefabs/Trees/fir.prefab
+  artifactKey: Guid(e15d01b3b61b947018c7f35118ac7770) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Palmov Island/Low Poly Cartoon Mini Pack Free/Prefabs/Trees/fir.prefab using Guid(e15d01b3b61b947018c7f35118ac7770) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fbf5ace74a2711dc2aab1000247ef1dd') in 0.063532 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000414 seconds.
+  path: Assets/Scripts/cambio.cs
+  artifactKey: Guid(902b57b98a97fbb4fa8c52335af82b22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/cambio.cs using Guid(902b57b98a97fbb4fa8c52335af82b22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c005583a52977ee41015b81b90c1edc4') in 0.010695 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/Palmov Island/Low Poly Cartoon Mini Pack Free/Prefabs/Trees/naked_tree.prefab
+  artifactKey: Guid(29ae8eae1c5884da989b3fa8d61401cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Palmov Island/Low Poly Cartoon Mini Pack Free/Prefabs/Trees/naked_tree.prefab using Guid(29ae8eae1c5884da989b3fa8d61401cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '953a174bf67e5cb67ddcaca782618c05') in 0.024607 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Outline.mat
+  artifactKey: Guid(79459efec17a4d00a321bdcc27bbc385) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Outline.mat using Guid(79459efec17a4d00a321bdcc27bbc385) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1fb272ba15dc5fa45b4f68d1f0b021a6') in 0.246667 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000065 seconds.
+  path: Assets/TextMesh Pro/Resources/Sprite Assets
+  artifactKey: Guid(512a49d95c0c4332bdd98131869c23c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Resources/Sprite Assets using Guid(512a49d95c0c4332bdd98131869c23c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1dcb9dc3060b39f33c350934f5d461fd') in 0.015725 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.015937 seconds.
+  path: Assets/Palmov Island/Low Poly Cartoon Mini Pack Free/Prefabs/Garden/pumpkin.prefab
+  artifactKey: Guid(580d24e56948b490598ab382c0b4d7a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Palmov Island/Low Poly Cartoon Mini Pack Free/Prefabs/Garden/pumpkin.prefab using Guid(580d24e56948b490598ab382c0b4d7a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f824cefdee8bcfc7049cc72a964fd57') in 0.029972 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.002993 seconds.
+  path: Assets/TextMesh Pro/Shaders/TMP_SDF Overlay.shader
+  artifactKey: Guid(dd89cf5b9246416f84610a006f916af7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Shaders/TMP_SDF Overlay.shader using Guid(dd89cf5b9246416f84610a006f916af7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aecc6b200522d3eb98080e247dc4e920') in 0.011557 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/TextMesh Pro/Sprites/EmojiOne.png
+  artifactKey: Guid(dffef66376be4fa480fb02b19edbe903) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Sprites/EmojiOne.png using Guid(dffef66376be4fa480fb02b19edbe903) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e90f16f928d1ea19113c9bd7e13f8a28') in 0.020948 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.018210 seconds.
+  path: Assets/Palmov Island/Low Poly Cartoon Mini Pack Free/Prefabs/Roads/grass_with_soil_area.prefab
+  artifactKey: Guid(fc958925259a74dbd9512eda4f8ded4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Palmov Island/Low Poly Cartoon Mini Pack Free/Prefabs/Roads/grass_with_soil_area.prefab using Guid(fc958925259a74dbd9512eda4f8ded4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b27c9927e26966eac4b146582334ae3') in 0.029531 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Palmov Island/Low Poly Cartoon Mini Pack Free/Models/Garden/pumpkin.fbx
+  artifactKey: Guid(83c209e58ff544616b163eebad45e792) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Palmov Island/Low Poly Cartoon Mini Pack Free/Models/Garden/pumpkin.fbx using Guid(83c209e58ff544616b163eebad45e792) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae4ba46dbdef24a0f2e93e493cbe7bec') in 0.044195 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000068 seconds.
+  path: Assets/TutorialInfo/Layout.wlt
+  artifactKey: Guid(eabc9546105bf4accac1fd62a63e88e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TutorialInfo/Layout.wlt using Guid(eabc9546105bf4accac1fd62a63e88e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '801ea9af96e9d153f01234fd074fe231') in 0.022211 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/models/Tanuki/3D/Tanuki/Materials/BAQIR.mat
+  artifactKey: Guid(88e19a4dd76028d4f9c901761eb9d742) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/models/Tanuki/3D/Tanuki/Materials/BAQIR.mat using Guid(88e19a4dd76028d4f9c901761eb9d742) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b5e31f84b0110df5e684da294848fe2a') in 0.045418 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Scripts/ProceduralFootPlanter.cs
+  artifactKey: Guid(35068fbc84be18641afe9affc2ac5cb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/ProceduralFootPlanter.cs using Guid(35068fbc84be18641afe9affc2ac5cb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '880289633453966dd0dd6b43b91d6bf1') in 0.013255 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Baqir Rig procedural/IKSnapper.cs
+  artifactKey: Guid(8e73a35a8fdff3a4bbd1e09b2d31314b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Baqir Rig procedural/IKSnapper.cs using Guid(8e73a35a8fdff3a4bbd1e09b2d31314b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43cc22dccea0831dd726da319379eb09') in 0.010680 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Palmov Island/Low Poly Cartoon Mini Pack Free/Prefabs/Grasses
+  artifactKey: Guid(ee0f670be99d141e4b3bccf81d93d86f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Palmov Island/Low Poly Cartoon Mini Pack Free/Prefabs/Grasses using Guid(ee0f670be99d141e4b3bccf81d93d86f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b07ed132f9a5227ad16f3b9956bafc5d') in 0.011590 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Palmov Island/Low Poly Cartoon Mini Pack Free/Prefabs/Roads/river_area.prefab
+  artifactKey: Guid(74f9d4249234845cd8fbc4bdabbc9fa9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Palmov Island/Low Poly Cartoon Mini Pack Free/Prefabs/Roads/river_area.prefab using Guid(74f9d4249234845cd8fbc4bdabbc9fa9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7940613c5b946685c4418e508148fff') in 0.027051 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Scripts/handAnim - ForgiveMeLord/ReachParentWeight.cs
+  artifactKey: Guid(9c712f132281aba4eaf73dcc943111cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/handAnim - ForgiveMeLord/ReachParentWeight.cs using Guid(9c712f132281aba4eaf73dcc943111cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '23e8be8562b94d18ae9c181d94307431') in 0.010615 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000650 seconds.
+  path: Assets/Palmov Island/Low Poly Cartoon Mini Pack Free/Models/Clouds/cloud_1.fbx
+  artifactKey: Guid(4ca6ac81c03474f8fa8a9eacd60a6143) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Palmov Island/Low Poly Cartoon Mini Pack Free/Models/Clouds/cloud_1.fbx using Guid(4ca6ac81c03474f8fa8a9eacd60a6143) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90c2b7f58d5b20ccef9e0ce68ab40422') in 0.041891 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Palmov Island/Low Poly Cartoon Mini Pack Free/Models/Grasses/shrub.fbx
+  artifactKey: Guid(a1dd2e605a16c43d7abe2aaf557f37ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Palmov Island/Low Poly Cartoon Mini Pack Free/Models/Grasses/shrub.fbx using Guid(a1dd2e605a16c43d7abe2aaf557f37ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5aa45d9c5a73e3641f11e050fade55fb') in 0.042933 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Palmov Island/Low Poly Cartoon Mini Pack Free/Prefabs/Houses
+  artifactKey: Guid(0960d73d5dcb042838cda5a9b5fd786b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Palmov Island/Low Poly Cartoon Mini Pack Free/Prefabs/Houses using Guid(0960d73d5dcb042838cda5a9b5fd786b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d592bca7e537cd9649dba39e4d842a2') in 0.004441 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/TextMesh Pro/Shaders/TMP_Bitmap-Mobile.shader
+  artifactKey: Guid(1e3b057af24249748ff873be7fafee47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Shaders/TMP_Bitmap-Mobile.shader using Guid(1e3b057af24249748ff873be7fafee47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af8158853b6dd181652e027e12849e05') in 0.012288 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile Overlay.shader
+  artifactKey: Guid(a02a7d8c237544f1962732b55a9aebf1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile Overlay.shader using Guid(a02a7d8c237544f1962732b55a9aebf1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '351b30ed6f49b9249c64be5f06f01c20') in 0.013921 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Palmov Island/Low Poly Cartoon Mini Pack Free/Materials/mat_main.mat
+  artifactKey: Guid(2ec5b9c14e2414c8f8631b2ae226d159) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Palmov Island/Low Poly Cartoon Mini Pack Free/Materials/mat_main.mat using Guid(2ec5b9c14e2414c8f8631b2ae226d159) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e04fd3c830d65bb08711ca28b292d2ec') in 0.026729 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/TutorialInfo
+  artifactKey: Guid(ba062aa6c92b140379dbc06b43dd3b9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TutorialInfo using Guid(ba062aa6c92b140379dbc06b43dd3b9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94fb6c6bacde1da6d0b7d43ec8d6e3b7') in 0.011804 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000062 seconds.
+  path: Assets/Scripts/handAnim - ForgiveMeLord/IReach.cs
+  artifactKey: Guid(1fbbaca9b522f064c979b2d1e092551d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/handAnim - ForgiveMeLord/IReach.cs using Guid(1fbbaca9b522f064c979b2d1e092551d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1b393332644fff1c98d7519149a187a') in 0.010574 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.016089 seconds.
+  path: Assets/models/Tanuki/3D/Tanuki/Textures/Red_Diffuse.tga
+  artifactKey: Guid(fbc4e512ed30a1c47a2a64b43d6b3eb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/models/Tanuki/3D/Tanuki/Textures/Red_Diffuse.tga using Guid(fbc4e512ed30a1c47a2a64b43d6b3eb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '24d5808e378dbaaa1304e7050d8f08ca') in 0.030903 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/TextMesh Pro/Resources/LineBreaking Leading Characters.txt
+  artifactKey: Guid(d82c1b31c7e74239bff1220585707d2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Resources/LineBreaking Leading Characters.txt using Guid(d82c1b31c7e74239bff1220585707d2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81e05557e3750856f8ff6cc3c6eff14f') in 0.012488 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Drop Shadow.mat
+  artifactKey: Guid(e73a58f6e2794ae7b1b7e50b7fb811b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Drop Shadow.mat using Guid(e73a58f6e2794ae7b1b7e50b7fb811b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee24c8d0d87ae030bba9537af0989323') in 0.125624 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.003644 seconds.
+  path: Assets/TextMesh Pro/Shaders/TMP_SDF SSD.shader
+  artifactKey: Guid(14eb328de4b8eb245bb7cea29e4ac00b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Shaders/TMP_SDF SSD.shader using Guid(14eb328de4b8eb245bb7cea29e4ac00b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68214f9f0d02727573df3e0f2f9888a7') in 0.012358 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/TextMesh Pro/Shaders/TMP_SDF.shader
+  artifactKey: Guid(68e6db2ebdc24f95958faec2be5558d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Shaders/TMP_SDF.shader using Guid(68e6db2ebdc24f95958faec2be5558d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ebab70d732240f8befc4381ebcc4840') in 0.010944 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/TutorialInfo/Scripts/Readme.cs
+  artifactKey: Guid(fcf7219bab7fe46a1ad266029b2fee19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TutorialInfo/Scripts/Readme.cs using Guid(fcf7219bab7fe46a1ad266029b2fee19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa3d65eae4e3552062f6eeb0264991da') in 0.009988 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Palmov Island/Low Poly Cartoon Mini Pack Free/Models/Clouds/cloud_2.fbx
+  artifactKey: Guid(6fe3b77f817bb462abed758f684494b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Palmov Island/Low Poly Cartoon Mini Pack Free/Models/Clouds/cloud_2.fbx using Guid(6fe3b77f817bb462abed758f684494b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca02d4144cca9e9f30c5e72c310dfa5a') in 0.061782 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/Palmov Island/Low Poly Cartoon Mini Pack Free/Prefabs/Grasses/grass.prefab
+  artifactKey: Guid(5d4d4abe7e7de45ed8fa6ff01c8aba81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Palmov Island/Low Poly Cartoon Mini Pack Free/Prefabs/Grasses/grass.prefab using Guid(5d4d4abe7e7de45ed8fa6ff01c8aba81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ddb706fa03ba0920f724a54adedf969d') in 0.024470 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Palmov Island/Low Poly Cartoon Mini Pack Free/Prefabs/Grasses/shrub.prefab
+  artifactKey: Guid(1f3eda802988747c298e2d0a5c729760) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Palmov Island/Low Poly Cartoon Mini Pack Free/Prefabs/Grasses/shrub.prefab using Guid(1f3eda802988747c298e2d0a5c729760) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c79d2ed75727678e70744b5525c984e6') in 0.030231 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Scripts/SimpleCameraController.cs
+  artifactKey: Guid(be76e5f14cfee674cb30b491fb72b09b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/SimpleCameraController.cs using Guid(be76e5f14cfee674cb30b491fb72b09b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'beb837620de1efc1e0a17b5141bd7880') in 0.012893 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.023310 seconds.
+  path: Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile.shader
+  artifactKey: Guid(fe393ace9b354375a9cb14cdbbc28be4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile.shader using Guid(fe393ace9b354375a9cb14cdbbc28be4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f0a2dc842eff0888ecf3b51a494fb81') in 0.014559 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Baqir Rig procedural/Baqir rig Unity V2.controller
+  artifactKey: Guid(e907cf3d3b9e4094c94f749c7b924207) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Baqir Rig procedural/Baqir rig Unity V2.controller using Guid(e907cf3d3b9e4094c94f749c7b924207) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f819f3b9465bba0a9f7d7c297a339ae4') in 0.012207 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Palmov Island/Low Poly Cartoon Mini Pack Free/Models/Grasses
+  artifactKey: Guid(29e31833e6ce242ca817ed4407701cd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Palmov Island/Low Poly Cartoon Mini Pack Free/Models/Grasses using Guid(29e31833e6ce242ca817ed4407701cd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e5ee7f92c39424f3e69625a454882569') in 0.004409 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/models/Tanuki/3D/Tanuki/Materials
+  artifactKey: Guid(98e34393a1e45c747b89c278f5832531) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/models/Tanuki/3D/Tanuki/Materials using Guid(98e34393a1e45c747b89c278f5832531) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '276c6b86694e8f645ef712d4247160f0') in 0.010083 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Palmov Island/Low Poly Cartoon Mini Pack Free/Prefabs/Trees/pine_tree.prefab
+  artifactKey: Guid(6cb72a3a9142647be8a73b9b0658c5b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Palmov Island/Low Poly Cartoon Mini Pack Free/Prefabs/Trees/pine_tree.prefab using Guid(6cb72a3a9142647be8a73b9b0658c5b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a251ba2788c0ad5f50abd46c0405301') in 0.029217 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/TutorialInfo/Icons/URP.png
+  artifactKey: Guid(727a75301c3d24613a3ebcec4a24c2c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TutorialInfo/Icons/URP.png using Guid(727a75301c3d24613a3ebcec4a24c2c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '46f1287b61106cea30b590403600009e') in 0.026522 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/Palmov Island/Low Poly Cartoon Mini Pack Free/Prefabs/Roads/paved_road_markings_straight_area_1.prefab
+  artifactKey: Guid(91f37005e8ce642dea4d711a3e6db19c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Palmov Island/Low Poly Cartoon Mini Pack Free/Prefabs/Roads/paved_road_markings_straight_area_1.prefab using Guid(91f37005e8ce642dea4d711a3e6db19c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ad59a26ed49c55c6e6a4114d6881dcd') in 0.034885 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Palmov Island/Low Poly Cartoon Mini Pack Free/guideline.pdf
+  artifactKey: Guid(ce575bb4a510c474aaddb57274b3fd0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Palmov Island/Low Poly Cartoon Mini Pack Free/guideline.pdf using Guid(ce575bb4a510c474aaddb57274b3fd0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b62a132500f5bc729d3c3c9e222141a') in 0.019820 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Scripts/EnemyHealth.cs
+  artifactKey: Guid(83d0bebcd9bf17b49a562c4c40964b86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/EnemyHealth.cs using Guid(83d0bebcd9bf17b49a562c4c40964b86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31e81e29ee242bcc64a2cbf4fd5a745c') in 0.011742 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.011400 seconds.
+  path: Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile SSD.shader
+  artifactKey: Guid(c8d12adcee749c344b8117cf7c7eb912) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile SSD.shader using Guid(c8d12adcee749c344b8117cf7c7eb912) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79df4e04b184d6863af6352003216726') in 0.011028 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Scripts/ThirdPersonCam.cs
+  artifactKey: Guid(1a7ebba1ebfc168438739d5740c4b467) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/ThirdPersonCam.cs using Guid(1a7ebba1ebfc168438739d5740c4b467) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '303dc44168b2949ffed98f38c26f3024') in 0.011729 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Palmov Island/Low Poly Cartoon Mini Pack Free/Models/Garden
+  artifactKey: Guid(db7a4fada6e9b4c948bc518a979734d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Palmov Island/Low Poly Cartoon Mini Pack Free/Models/Garden using Guid(db7a4fada6e9b4c948bc518a979734d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b0fe5f4e2641f842c30d87f0fb5d1651') in 0.010450 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Palmov Island/Low Poly Cartoon Mini Pack Free/Textures
+  artifactKey: Guid(b0b1617d8146b4390ae89929719d549f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Palmov Island/Low Poly Cartoon Mini Pack Free/Textures using Guid(b0b1617d8146b4390ae89929719d549f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51f892d80a9634a88f738a66de03f34e') in 0.010251 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/TextMesh Pro/Shaders/TMP_Bitmap.shader
+  artifactKey: Guid(128e987d567d4e2c824d754223b3f3b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Shaders/TMP_Bitmap.shader using Guid(128e987d567d4e2c824d754223b3f3b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0dd041c56317ed06bf70529185f578b6') in 0.012145 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Scripts/pausa.cs
+  artifactKey: Guid(166875cd97010124b81e43fccfb3ec88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/pausa.cs using Guid(166875cd97010124b81e43fccfb3ec88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2accf2dba02c9a31a54436ac05cde9f') in 0.009317 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Palmov Island/Low Poly Cartoon Mini Pack Free/Models/Roads/grass_with_soil_area.fbx
+  artifactKey: Guid(a47324393d38c409ead6a5966058893a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Palmov Island/Low Poly Cartoon Mini Pack Free/Models/Roads/grass_with_soil_area.fbx using Guid(a47324393d38c409ead6a5966058893a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6bb35b341580bf25c93d066895e0c003') in 0.039364 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Scripts/ParentConstrainWeigthManager.cs
+  artifactKey: Guid(f267cf3fea7c2604a9c8aef9a4008cff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/ParentConstrainWeigthManager.cs using Guid(f267cf3fea7c2604a9c8aef9a4008cff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b21bf2ba890fe1be4bdce6268733a0af') in 0.010924 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/TargetLookAt.cs
+  artifactKey: Guid(1268019fd9fc35a41850ed66905c13b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TargetLookAt.cs using Guid(1268019fd9fc35a41850ed66905c13b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '032b2b763c221024202340e8779593bd') in 0.017302 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/Palmov Island/Low Poly Cartoon Mini Pack Free/Models/Trees/pine_tree.fbx
+  artifactKey: Guid(7df4a6cdede204986af55c3a60f871d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Palmov Island/Low Poly Cartoon Mini Pack Free/Models/Trees/pine_tree.fbx using Guid(7df4a6cdede204986af55c3a60f871d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aea0dd7c8b9748f4f5ab40eb8e9348cb') in 0.064933 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/TutorialInfo/Scripts
+  artifactKey: Guid(5a9bcd70e6a4b4b05badaa72e827d8e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TutorialInfo/Scripts using Guid(5a9bcd70e6a4b4b05badaa72e827d8e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd40405b1c33fc38c3cf389a51b62526') in 0.006791 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000078 seconds.
+  path: Assets/TextMesh Pro/Sprites/EmojiOne.json
+  artifactKey: Guid(8f05276190cf498a8153f6cbe761d4e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Sprites/EmojiOne.json using Guid(8f05276190cf498a8153f6cbe761d4e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '796da6ae9872384574b1fb302dc81063') in 0.014979 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/TextMesh Pro/Resources/Fonts & Materials
+  artifactKey: Guid(731f1baa9d144a9897cb1d341c2092b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Resources/Fonts & Materials using Guid(731f1baa9d144a9897cb1d341c2092b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a8a5343dd66316b9eb35bafbffda078a') in 0.018866 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/Scripts/MeleeEnemy.cs
+  artifactKey: Guid(8b2039fbde947eb4cb4282dfd7c2bf79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/MeleeEnemy.cs using Guid(8b2039fbde947eb4cb4282dfd7c2bf79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c761687d15fc4ec8ff926b7177bb1e57') in 0.017492 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.043118 seconds.
+  path: Assets/Scripts/CharacterSelector.cs
+  artifactKey: Guid(e7450e3572d447e46b8b9d8f5f501bc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/CharacterSelector.cs using Guid(e7450e3572d447e46b8b9d8f5f501bc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2697e30ce3109bb29ab3c1fd346db65') in 0.019418 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000060 seconds.
+  path: Assets/Scripts/handAnim - ForgiveMeLord/IKSwitcherReach.cs
+  artifactKey: Guid(649f4102d2277544f9a8f6e5b9ebecf5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/handAnim - ForgiveMeLord/IKSwitcherReach.cs using Guid(649f4102d2277544f9a8f6e5b9ebecf5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce133e6849e63afdd870af0982e769fa') in 0.023473 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.006342 seconds.
+  path: Assets/models/Tanuki/3D/Tanuki/BAQIR-RIG.fbx
+  artifactKey: Guid(f6997686dc8c23945aaea7eed32093d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/models/Tanuki/3D/Tanuki/BAQIR-RIG.fbx using Guid(f6997686dc8c23945aaea7eed32093d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b37947477f16baaa5c034dbf07033c6') in 0.115104 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/Palmov Island/Low Poly Cartoon Mini Pack Free/Prefabs/Roads/bridge_small.prefab
+  artifactKey: Guid(f29d7be640856435aac354d716f2764a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Palmov Island/Low Poly Cartoon Mini Pack Free/Prefabs/Roads/bridge_small.prefab using Guid(f29d7be640856435aac354d716f2764a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0fd89fec70b4b41bf58031e676bd9c6f') in 0.060658 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000409 seconds.
+  path: Assets/Palmov Island/Low Poly Cartoon Mini Pack Free/Prefabs/Garden
+  artifactKey: Guid(9ef3121414b65469b850b57ca33c43c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Palmov Island/Low Poly Cartoon Mini Pack Free/Prefabs/Garden using Guid(9ef3121414b65469b850b57ca33c43c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1021dddf18bd735ae680e64a82aaa07e') in 0.009053 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/Palmov Island/Low Poly Cartoon Mini Pack Free/Prefabs/Stones/stone_1.prefab
+  artifactKey: Guid(6729c2d78ee9040829d69b1c626b3903) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Palmov Island/Low Poly Cartoon Mini Pack Free/Prefabs/Stones/stone_1.prefab using Guid(6729c2d78ee9040829d69b1c626b3903) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6dc0ca6e51a87baebd37ac548d89ab1d') in 0.042119 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/Palmov Island/Low Poly Cartoon Mini Pack Free/Models/Trees
+  artifactKey: Guid(6e0974e75785b492e975ccb4a2e69792) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Palmov Island/Low Poly Cartoon Mini Pack Free/Models/Trees using Guid(6e0974e75785b492e975ccb4a2e69792) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2f84ebce1dc102591b9d79839d1b887') in 0.019347 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.022294 seconds.
+  path: Assets/Palmov Island/Low Poly Cartoon Mini Pack Free/Models/Garden/land_garden.fbx
+  artifactKey: Guid(cd52eeac6214d4f3cb8efb56c0d39006) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Palmov Island/Low Poly Cartoon Mini Pack Free/Models/Garden/land_garden.fbx using Guid(cd52eeac6214d4f3cb8efb56c0d39006) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '46d07b6552e539d8eeddd8ed46f453ad') in 0.065862 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000060 seconds.
+  path: Assets/TextMesh Pro/Shaders/TMP_SDF-Surface-Mobile.shader
+  artifactKey: Guid(85187c2149c549c5b33f0cdb02836b17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Shaders/TMP_SDF-Surface-Mobile.shader using Guid(85187c2149c549c5b33f0cdb02836b17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0fa3ac2907c789e7c30b844173fd2da9') in 0.019049 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000059 seconds.
+  path: Assets/TextMesh Pro/Shaders/TMPro_Properties.cginc
+  artifactKey: Guid(3997e2241185407d80309a82f9148466) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Shaders/TMPro_Properties.cginc using Guid(3997e2241185407d80309a82f9148466) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9d66edb9f7644c41d6660890371bded') in 0.021498 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/Baqir Rig procedural/Playerbaquir.controller
+  artifactKey: Guid(0375d72dc7ca13c4cb28cc05241c4239) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Baqir Rig procedural/Playerbaquir.controller using Guid(0375d72dc7ca13c4cb28cc05241c4239) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d6a8578560c9245554eec89038806d5') in 0.090704 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/LookAtScript.cs
+  artifactKey: Guid(7e32eaf56b4b5d84595ab0f658cf60e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LookAtScript.cs using Guid(7e32eaf56b4b5d84595ab0f658cf60e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '50127b6c397bcfe5ab3bcddb8bc78569') in 0.019607 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/Palmov Island/Low Poly Cartoon Mini Pack Free/Models/Roads/paved_road_markings_straight_area_1.fbx
+  artifactKey: Guid(196411f154adf44d88668eb81907ffb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Palmov Island/Low Poly Cartoon Mini Pack Free/Models/Roads/paved_road_markings_straight_area_1.fbx using Guid(196411f154adf44d88668eb81907ffb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b4ace64214fcf01327d1f052d85275b') in 0.064062 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/Palmov Island/Low Poly Cartoon Mini Pack Free/Prefabs/Houses/supermarket.prefab
+  artifactKey: Guid(3ef7289946b204a5793aa0a6014e4dc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Palmov Island/Low Poly Cartoon Mini Pack Free/Prefabs/Houses/supermarket.prefab using Guid(3ef7289946b204a5793aa0a6014e4dc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b9df35fb533855846a64e86fff4866d') in 0.039678 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Baqir Rig procedural
+  artifactKey: Guid(c9313b6d1a38f70499589d7ed88e5011) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Baqir Rig procedural using Guid(c9313b6d1a38f70499589d7ed88e5011) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c98bce8473250b1b503b51cdc566061') in 0.012332 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Palmov Island/Low Poly Cartoon Mini Pack Free/Models
+  artifactKey: Guid(3609b60c48644452d9a2c153aa7102f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Palmov Island/Low Poly Cartoon Mini Pack Free/Models using Guid(3609b60c48644452d9a2c153aa7102f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '690453545ca678386a98c3cdb56f31c2') in 0.012445 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Palmov Island/Low Poly Cartoon Mini Pack Free/Prefabs/Stones/stone_2.prefab
+  artifactKey: Guid(cbc1d3b7475814f20818245d9e54aca9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Palmov Island/Low Poly Cartoon Mini Pack Free/Prefabs/Stones/stone_2.prefab using Guid(cbc1d3b7475814f20818245d9e54aca9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f7b4ef93c6582e4e77c71003a2097d7c') in 0.029366 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/models/Tanuki/3D
+  artifactKey: Guid(94b068b87be185647bdb474b3daa91d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/models/Tanuki/3D using Guid(94b068b87be185647bdb474b3daa91d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f028dfa92e1d970931e8d7733ccd27e8') in 0.011007 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.044343 seconds.
+  path: Assets/Palmov Island/Low Poly Cartoon Mini Pack Free/Prefabs/Houses/house_big.prefab
+  artifactKey: Guid(f56f01b115c934b64989066fa476eca6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Palmov Island/Low Poly Cartoon Mini Pack Free/Prefabs/Houses/house_big.prefab using Guid(f56f01b115c934b64989066fa476eca6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd3c52c8953661e076b64c56b7293694b') in 0.028339 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000076 seconds.
+  path: Assets/TextMesh Pro/Documentation
+  artifactKey: Guid(8e7e8f5a82a3a134e91c54efd2274ea9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Documentation using Guid(8e7e8f5a82a3a134e91c54efd2274ea9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc497803c0650e980b81bcf651e18b86') in 0.010910 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/TextMesh Pro/Shaders/TMPro.cginc
+  artifactKey: Guid(407bc68d299748449bbf7f48ee690f8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Shaders/TMPro.cginc using Guid(407bc68d299748449bbf7f48ee690f8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '377eec8c3ac62a3e6fb5d781866f3f32') in 0.010747 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.031426 seconds.
+  path: Assets/Palmov Island/Low Poly Cartoon Mini Pack Free/Models/Houses/house_small.fbx
+  artifactKey: Guid(e3221a030c87c48a19a6d00f6a8997ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Palmov Island/Low Poly Cartoon Mini Pack Free/Models/Houses/house_small.fbx using Guid(e3221a030c87c48a19a6d00f6a8997ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ea6990aa6a8c2bf6246244dace14d4f') in 0.089473 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.035411 seconds.
+  path: Assets/Palmov Island/Low Poly Cartoon Mini Pack Free/Models/Clouds
+  artifactKey: Guid(72ce14a347aac44fbaa6117b196e9167) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Palmov Island/Low Poly Cartoon Mini Pack Free/Models/Clouds using Guid(72ce14a347aac44fbaa6117b196e9167) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '368e227e33ecce76c680ab28144fb229') in 0.009815 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/TextMesh Pro/Resources/Style Sheets
+  artifactKey: Guid(4aecb92fff08436c8303b10eab8da368) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Resources/Style Sheets using Guid(4aecb92fff08436c8303b10eab8da368) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe342ddaeddc525a77e6f203ceeefc6a') in 0.010838 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/models/Tanuki/3D/Tanuki/Animations
+  artifactKey: Guid(f28f699b63a693a4b8bedf97dad49df9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/models/Tanuki/3D/Tanuki/Animations using Guid(f28f699b63a693a4b8bedf97dad49df9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4cd76adb09225508a77cd5ab65ff452') in 0.010794 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/TextMesh Pro/Fonts/LiberationSans - OFL.txt
+  artifactKey: Guid(6e59c59b81ab47f9b6ec5781fa725d2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Fonts/LiberationSans - OFL.txt using Guid(6e59c59b81ab47f9b6ec5781fa725d2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b12682c63b88ed5ead113fb2bb4dac57') in 0.012530 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Palmov Island/Low Poly Cartoon Mini Pack Free/Models/Roads/bridge_small.fbx
+  artifactKey: Guid(00606f1d23ade4ec786bd9e8b32f25e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Palmov Island/Low Poly Cartoon Mini Pack Free/Models/Roads/bridge_small.fbx using Guid(00606f1d23ade4ec786bd9e8b32f25e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ce80f55000b21f04ca51dd96b007019') in 0.055852 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile Masking.shader
+  artifactKey: Guid(bc1ede39bf3643ee8e493720e4259791) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile Masking.shader using Guid(bc1ede39bf3643ee8e493720e4259791) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ae34b3570aca44e4ee44dfbcb21bd34') in 0.010744 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.052184 seconds.
+  path: Assets/TextMesh Pro/Shaders/TMPro_Mobile.cginc
+  artifactKey: Guid(c334973cef89a9840b0b0c507e0377ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Shaders/TMPro_Mobile.cginc using Guid(c334973cef89a9840b0b0c507e0377ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f70992c948c7e359ff2a0ce4fccca735') in 0.014179 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Palmov Island/Low Poly Cartoon Mini Pack Free/Models/Trees/fir.fbx
+  artifactKey: Guid(674379a82b6a341be8749a49800ac7c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Palmov Island/Low Poly Cartoon Mini Pack Free/Models/Trees/fir.fbx using Guid(674379a82b6a341be8749a49800ac7c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b5200674b0586d8604611a732af11e81') in 0.051660 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Fallback.asset
+  artifactKey: Guid(2e498d1c8094910479dc3e1b768306a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Fallback.asset using Guid(2e498d1c8094910479dc3e1b768306a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b79d8d6ad41537d2103e0a81dcaab917') in 0.037302 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/Palmov Island/Low Poly Cartoon Mini Pack Free/Materials
+  artifactKey: Guid(42c22c9d1a97b4528825aa72f15b582a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Palmov Island/Low Poly Cartoon Mini Pack Free/Materials using Guid(42c22c9d1a97b4528825aa72f15b582a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '50df02efb40cd36110cad7461d5dd694') in 0.005149 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.070196 seconds.
+  path: Assets/Palmov Island/Low Poly Cartoon Mini Pack Free/Models/Transport/car_blue.fbx
+  artifactKey: Guid(cd3f4512800264fad8e4c612c68abbaa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Palmov Island/Low Poly Cartoon Mini Pack Free/Models/Transport/car_blue.fbx using Guid(cd3f4512800264fad8e4c612c68abbaa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b7fc4a4b6d04a5817db57bdf7c13b68') in 0.137406 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.008656 seconds.
+  path: Assets/TextMesh Pro/Shaders/TMP_SDF-Surface.shader
+  artifactKey: Guid(f7ada0af4f174f0694ca6a487b8f543d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Shaders/TMP_SDF-Surface.shader using Guid(f7ada0af4f174f0694ca6a487b8f543d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec600a0bc963a1ca3ed2fb0f04da49bc') in 0.011824 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.072559 seconds.
+  path: Assets/models/Tanuki/3D/Tanuki/Textures
+  artifactKey: Guid(fe78dbd733c78d04395dbf3d76300984) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/models/Tanuki/3D/Tanuki/Textures using Guid(fe78dbd733c78d04395dbf3d76300984) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95784f3428799f6562ab3fcd9ae14f05') in 0.004471 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Palmov Island/Low Poly Cartoon Mini Pack Free/Models/Stones
+  artifactKey: Guid(b58b6d95bbbca4426876be586cb781e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Palmov Island/Low Poly Cartoon Mini Pack Free/Models/Stones using Guid(b58b6d95bbbca4426876be586cb781e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd7afb88610a0d351d448497b3d453db3') in 0.003705 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/models/Tanuki/3D/Tanuki/Animations/TanukiAnimOverride.overrideController
+  artifactKey: Guid(930c99d568e6a9048bb290097591791b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/models/Tanuki/3D/Tanuki/Animations/TanukiAnimOverride.overrideController using Guid(930c99d568e6a9048bb290097591791b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '380a4e245408ead0757e46dea0cdbf77') in 0.071477 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.035010 seconds.
+  path: Assets/Palmov Island/Low Poly Cartoon Mini Pack Free/Models/Trees/oval_tree.fbx
+  artifactKey: Guid(1102944e755964a89b625903b7469c21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Palmov Island/Low Poly Cartoon Mini Pack Free/Models/Trees/oval_tree.fbx using Guid(1102944e755964a89b625903b7469c21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eba14d0107a04825a6b6a8426dd3f66c') in 0.045752 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/TutorialInfo/Scripts/Editor
+  artifactKey: Guid(3ad9b87dffba344c89909c6d1b1c17e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TutorialInfo/Scripts/Editor using Guid(3ad9b87dffba344c89909c6d1b1c17e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5fd757725371249e191449f57f634ec2') in 0.013309 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/scenes/Mundo juego.unity
+  artifactKey: Guid(a10f286a8f4bf408aac6dbbea9cb022a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/scenes/Mundo juego.unity using Guid(a10f286a8f4bf408aac6dbbea9cb022a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c18e1f0490a5e780abc2ddfb61e08a2') in 0.010302 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Palmov Island/Low Poly Cartoon Mini Pack Free/Textures/texture_main.png
+  artifactKey: Guid(e628b13ca0611477f9514df086914c41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Palmov Island/Low Poly Cartoon Mini Pack Free/Textures/texture_main.png using Guid(e628b13ca0611477f9514df086914c41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ccc1accd27a9767e22d44e57404059e0') in 0.022470 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Amogas.controller
+  artifactKey: Guid(44264f1cafb5d99449e92bf3a504c99e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Amogas.controller using Guid(44264f1cafb5d99449e92bf3a504c99e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f37fed82d8876021227672a3fb8be5b3') in 0.013709 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Palmov Island/Low Poly Cartoon Mini Pack Free/Models/Stones/stone_2.fbx
+  artifactKey: Guid(45b0c145f23c944c5931f32009a3a94b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Palmov Island/Low Poly Cartoon Mini Pack Free/Models/Stones/stone_2.fbx using Guid(45b0c145f23c944c5931f32009a3a94b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78ec1ef86ce1225c2d3944cd653324ab') in 0.044203 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.098832 seconds.
+  path: Assets/Palmov Island/Low Poly Cartoon Mini Pack Free/Scenes/All Models.unity
+  artifactKey: Guid(216d0da7482d7ee4e81c1779f7a2a30a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Palmov Island/Low Poly Cartoon Mini Pack Free/Scenes/All Models.unity using Guid(216d0da7482d7ee4e81c1779f7a2a30a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a71f9148c0b2caeaf3310e72ee90be3f') in 0.013115 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/models/Tanuki/3D/Tanuki
+  artifactKey: Guid(87c5f0dfd738aaf4abb27c707511d0b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/models/Tanuki/3D/Tanuki using Guid(87c5f0dfd738aaf4abb27c707511d0b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c6a9c2d41be5792c49ed6072c2f4927') in 0.010200 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/TextMesh Pro/Resources/TMP Settings.asset
+  artifactKey: Guid(3f5b5dff67a942289a9defa416b206f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Resources/TMP Settings.asset using Guid(3f5b5dff67a942289a9defa416b206f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9622e917d413cc9e076a17767c9c150b') in 0.043334 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/TextMesh Pro/Sprites
+  artifactKey: Guid(d0603b6d5186471b96c778c3949c7ce2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Sprites using Guid(d0603b6d5186471b96c778c3949c7ce2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b27a52c99a9f8f9ac4f70e63a6bb6f32') in 0.011572 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Baqir Rig procedural/Materials
+  artifactKey: Guid(4a0e9f72e24506241a771476950e3be5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Baqir Rig procedural/Materials using Guid(4a0e9f72e24506241a771476950e3be5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee10a5a9ce2d70f8deddd834bd2a0a9f') in 0.003727 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/models/Tanuki/TanukiScene.unity
+  artifactKey: Guid(99c9720ab356a0642a771bea13969a05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/models/Tanuki/TanukiScene.unity using Guid(99c9720ab356a0642a771bea13969a05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c3dea6b299bb99cc5c4c5878c47a042') in 0.010549 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Palmov Island/Low Poly Cartoon Mini Pack Free/Prefabs/Trees
+  artifactKey: Guid(c1d434ce9aa884b3aa241eb6ef2a512f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Palmov Island/Low Poly Cartoon Mini Pack Free/Prefabs/Trees using Guid(c1d434ce9aa884b3aa241eb6ef2a512f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c77710e58a862308bf55658d0f797f68') in 0.005119 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/TextMesh Pro/Documentation/TextMesh Pro User Guide 2016.pdf
+  artifactKey: Guid(1b8d251f9af63b746bf2f7ffe00ebb9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Documentation/TextMesh Pro User Guide 2016.pdf using Guid(1b8d251f9af63b746bf2f7ffe00ebb9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d6b2116cabf90b03832e74758ace689') in 0.011504 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.011609 seconds.
+  path: Assets/Scripts/handAnim - ForgiveMeLord/ReachAnim.cs
+  artifactKey: Guid(ddbae106ae761574d9842f39c4405cb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/handAnim - ForgiveMeLord/ReachAnim.cs using Guid(ddbae106ae761574d9842f39c4405cb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e9c114876254bd83061b444441d20f9f') in 0.010100 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/TigerLookAt.cs
+  artifactKey: Guid(40511ddcfee76d041819c867d1451bb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TigerLookAt.cs using Guid(40511ddcfee76d041819c867d1451bb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6be03220a57271ce0c7cdef1f093200a') in 0.011476 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/TextMesh Pro/Resources
+  artifactKey: Guid(243e06394e614e5d99fab26083b707fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Resources using Guid(243e06394e614e5d99fab26083b707fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73107d1020a62e3def86c468d2a05456') in 0.013544 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000341 seconds.
+  path: Assets/TextMesh Pro/Fonts/LiberationSans.ttf
+  artifactKey: Guid(e3265ab4bf004d28a9537516768c1c75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Fonts/LiberationSans.ttf using Guid(e3265ab4bf004d28a9537516768c1c75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f822fe2869b08560f85a642e38c6fca') in 0.481815 seconds 
